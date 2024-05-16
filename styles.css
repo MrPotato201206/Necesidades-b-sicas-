@@ -1,0 +1,110 @@
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif; /* Tipo de fuente predeterminado */
+    margin: 0; /* Elimina el margen predeterminado */
+    padding: 0; /* Elimina el relleno predeterminado */
+    background-color: #333; /* Fondo oscuro gris llamativo */
+    color: #fff; /* Color de texto */
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación del texto */
+  }
+  
+  /* Estilos para el contenido principal */
+  main {
+    padding: 20px; /* Espaciado interno */
+  }
+  
+  /* Estilos para las secciones */
+  section {
+    margin-bottom: 30px; /* Margen inferior */
+  }
+  
+  /* Estilos para los grupos de formulario */
+  .form-group {
+    margin-bottom: 20px; /* Espaciado inferior */
+  }
+  
+  /* Estilos para etiquetas de formulario */
+  label {
+    display: block; /* Muestra como bloque */
+    margin-bottom: 5px; /* Margen inferior */
+    color: #fff; /* Color de texto */
+  }
+  
+  /* Estilos para campos de entrada de formulario */
+  input, textarea {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Margen inferior */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 5px; /* Borde redondeado */
+    background-color: #fff; /* Color de fondo */
+    color: #333; /* Color de texto */
+  }
+  
+  /* Estilos para el botón de envío */
+  button {
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color de texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cursor apuntador */
+  }
+  
+  /* Cambiar el color del botón al pasar el ratón */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para el pie de página */
+  .footer {
+    background-color: #007bff; /* Color de fondo */
+    color: white; /* Color del texto */
+    text-align: center; /* Alineación del texto */
+    padding: 20px; /* Espaciado interno */
+    position: fixed; /* Fija la posición */
+    bottom: 0; /* Alinea en la parte inferior */
+    width: 100%; /* Ancho completo */
+  }
+  
+  /* Estilos para las tarjetas de solución */
+  .solution {
+    background-color: #555; /* Color de fondo de la tarjeta */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 5px; /* Borde redondeado */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+    transition: all 0.3s ease; /* Transición suave */
+    margin-bottom: 20px; /* Agregar espacio entre tarjetas */
+    width: calc(100% - 40px); /* Ancho de la tarjeta */
+    max-width: 600px; /* Ancho máximo de la tarjeta */
+    margin-left: auto; /* Centrar la tarjeta horizontalmente */
+    margin-right: auto; /* Centrar la tarjeta horizontalmente */
+  }
+  
+  /* Estilos para los títulos de solución */
+  .solution h3 {
+    margin-bottom: 10px; /* Margen inferior */
+  }
+  
+  /* Estilos para las descripciones de solución */
+  .solution p {
+    display: none; /* Oculta la descripción por defecto */
+    margin-top: 10px; /* Agregar margen superior */
+  }
+  
+  /* Mostrar la descripción de la solución al pasar el cursor */
+  .solution:hover p {
+    display: block; /* Mostrar la descripción al pasar el cursor */
+  }
+/* Estilos para el título "Necesidades en Guatemala" */
+#needs-list h2 {
+    text-align: center; /* Centrar el texto */
+  }  
