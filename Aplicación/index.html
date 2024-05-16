@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soluciones para Guatemala</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS -->
+</head>
+<body>
+  <header>
+    <h1>Soluciones para Guatemala</h1>
+    <p>Encuentra y aporta soluciones a las necesidades de tu comunidad</p>
+  </header>
+  <main>
+    <section id="needs-list">
+      <h2>Necesidades en Guatemala</h2>
+      <!-- Aquí se cargarán dinámicamente las necesidades -->
+    </section>
+    <section id="solution-form">
+      <h2>¿Tienes una solución?</h2>
+      <form onsubmit="submitSolution(event)">
+        <div class="form-group">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Correo Electrónico:</label>
+          <input type="email" id="email" required>
+        </div>
+        <div class="form-group">
+          <label for="solution">Tu Solución:</label>
+          <textarea id="solution" rows="4" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+  <footer class="footer">
+    Colegio Lehnsen online | Angel Hernández C5 | David Martinez | Emprendimiento <!-- Pie de página -->
+  </footer>
+  <script src="script.js"></script> <!-- Enlace al archivo JavaScript -->
+</body>
+</html>
